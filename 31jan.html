@@ -18,8 +18,20 @@
       list-style: none;
     }
     nav ul li {
-      font-size: 10px;
-      margin-left: 60px;
+      font-size: 15px;
+      margin-left: 75px;
+    }
+    .logo{
+position: absolute;
+  top: 8px;
+  left: 16px;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  box-shadow: 2px 2px,
+    }
+    .header{
+        background: darkgray;
     }
     h2{
         font-size: 20px;
@@ -30,19 +42,18 @@
         font-size: 17px;
         font-family: 'Slabo 27px', serif;
         color: rgba(121, 116, 116, 0.924);
-        text-align: center;
-        width: 550px;
-        margin-left: 370px;
     }
    .tech{
     display: flex;
       justify-content: flex-end;
-      padding: 30px;
+      padding: 40px;
+      font-family: 'Slabo 27px', serif;   
    }
    .tech1{
     display: flex;
       justify-content: flex-end;
-      padding: 30px;<br>
+      padding: 40px;
+      font-family: 'Slabo 27px', serif;
    }
    .brand{
     display: flex;
@@ -52,8 +63,9 @@
    .font{
     display: flex;
       justify-content: space-evenly;  
-      font-size: 15px; 
-      padding: 20px;
+      font-size: 18px; 
+      padding: 80px;
+      background-color: bisque;
    }
    form{
        text-align: center;
@@ -62,76 +74,185 @@
        padding: 20px;
    }
    footer{
-       background-color: blueviolet;
+       background-color:black;
+       color:white;
    }
    figure.brand{
        background-color: chartreuse;
-       width: 1200px;
+       width: 1170px;
        height: 100px;
        padding: 10px;
    }
    p.qutation{
        background-color: rgb(225, 213, 236);
+       padding:100px;
+       text-align: center;
+       width:1070px;
+   } 
+   .text{
+position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-10%);
    }
-   p.footer{
-    display: flex;
-     
+   .about{
+       padding: 100px;
       
    }
+   .about p{
+       text-align: center;
+       width:450px;
+       margin-left: 300px;
+   }
+   .skills img{
+position: static;
+width: 30px;
+   }
+   .process p{
+       text-align: center;
+   }
+.copyrite{
+    text-align: left;
+}
+.id-tel{
+    text-align: center;
+}
+.colo{
+    display: block;
+    margin-right: 90px;
+margin-left: 90px;
+padding-left: 95px;
+padding-right: 95px;
+    
+}
+.colt{
+    display: flex;
+    margin-right: 90px;
+margin-left: 90px;
+padding-left: 95px;
+padding-right: 95px;
+    
+}
+.cole{
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: auto;
+margin-left: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
     </style>
 </head>
 <body>
-    <header>
-          
-        <nav>
-            <div style="text-align:left;"class="logo">FbW6</div>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Process</li>
-            <li>Services</li>
-            <li>Testimonials</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </header>
-  <p><h2>We Design and Develop</h2>
-      <p>We are the right choice - fair pricing, unsurpassed creativity, dynamic contemporary web design & programming,<br> more than a decade of professional experience and an unrivaled level of dedication.</p>
-      <input type="submit" value="CONTACT US">
-    </p>
+     <!--1st picture-->
+      <div class="container">
+            <div class="header">
+                    <nav>
+                        <div class="logo">FbW6</div>
+                      <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Work</li>
+                        <li>Process</li>
+                        <li>Services</li>
+                        <li>Testimonials</li>
+                        <li>Contact</li>
+                      </ul>
+                    </nav>
+                </div>
+         <img src="img/photo-1455875836392-d7b9747e584c.jpeg" style="width:100%;height:600px;">
+         <div class="text"><h2>We Design and Develop</h2>
+      <p>We are the right choice - fair pricing, unsurpassed creativity, dynamic contemporary web design & programming, more than a decade of professional experience and an unrivaled level of dedication.</p>
+      <input style="margin:10px;"type="submit" value="CONTACT US">
+    </div>
+</div>
+<!--About us starts here-->
+<div class="about">
     <h2>About Us</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae laborum veritatis quis, debitis maxime facere aspernatur ipsa! br
         Repellat ipsam necessitatibus facere iure voluptatibus nesciunt, ducimus dolorum iste reprehenderit qui?</p>
-<h2>Professional Skills</h2>
+</div>
+<!--professional skills-->
+<div class="skills">
+        <h2>Professional Skills</h2>
+    <img src="img/photo-1452457750107-cd084dce177d.jpeg" style="width:50%;" >
 <p>UI/UX Design 75% <br>
     Web Development 90% <br>
     Marketing 65% <br>
 </p>
+</div>
+<!--font1-->
 <figure class="font">
         <i class="far fa-business-time">548 <br>PROJECTS COMPLETED</i>
         <i class="far fa-clock">1465 <br>WORKING HOURS</i>
         <i class="far fa-star">612 <br>POSITIVE FEEDBACKS</i>
         <i class="far fa-heart">735 <br>HAPPY CLIENTS</i>
 </figure>
+<!--our work process-->
+<div class="process">
       <h2>Our Work Process</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae laborum veritatis quis, debitis maxime facere aspernatur ipsa!</p>
-    <figure class="tech">
-        <i class="far fa-gem"><br>UI/UX DESIGN <br>Creating products that provide meaningful and relevant experiences to users.</i>
-        <i class="fas fa-expand-arrows-alt"><br>WEB DEVELOPMENT <br>The work involved in developing a web site for the Internet or an intranet.</i>
-        <i class="fas fa-mobile-alt"><br>APP/MOBILE <br> A computer program or software application designed to run on a mobile device like phone or tablet.</i>
-        <i class="fas fa-gamepad"><br>GAME DESIGN <br>The art of applying design and aesthetics to create a game for entertainment.</i>
-    </figure>
-        <figure class="tech1">  
-        <i class="fas fa-plane-departure"><br>SEO/ MARKETING <br>Creating products that provide meaningful and relevant experiences to users.</i>
-        <i class="far fa-star"><br>PHOTOGRAPHY <br>The work involved in developing a web site for the Internet or an intranet.</i>
-        <i class="fas fa-joint"><br>GRAPHIC DESIGN <br> A computer program or software application designed to run on a mobile device like phone or tablet.</i>
-        <i class="fas fa-mug-hot"><br>ILLUSTRATIONS  <br>The art of applying design and aesthetics to create a game for entertainment.</i>
-    </figure>
+     <!--video attachment-->
+      <iframe width="1260" height="400"; src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <!--technology fonts-->
+      <figure class="tech">
+            <div style="text-align: center;"class="design">
+                <i style="text-align: center;"class="far fa-gem">   </i>      <br>
+               UI/UX DESIGN <br>
+            Creating products that provide meaningful and relevant experiences to users.</div>
+    
+            <div style="text-align: center;" class="web"><i style="text-align: center;"class="fas fa-expand-arrows-alt"></i><br>
+                <br> WEB DEVELOPMENT
+                <br>The work involved in developing a web site for the Internet or an intranet.</i>
+            </div>
+            
+            <div style="text-align: center;"class="app">
+                    <i style="text-align: center;"class="fas fa-mobile-alt"></i>
+                    <br>APP/MOBILE 
+                    <br> A computer program or software application designed to run on a mobile device like phone or tablet.
+            </div>
+            
+    
+            <div style="text-align: center;"class="game">
+                    <i style="text-align: center;"class="fas fa-gamepad"></i>
+                    <br>GAME DESIGN 
+                    <br>The art of applying design and aesthetics to create a game for entertainment.
+            </div>
+            
+        </figure>
+            <figure class="tech1"> 
+                <div style="text-align: center;"class="seo">
+                        <i style="text-align: center;"class="fas fa-plane-departure"></i>
+                            <br>SEO/ MARKETING 
+                            <br>Creating products that provide meaningful and relevant experiences to users.
+                </div> 
+            
+    
+                <div style="text-align: center;"class="photo">
+                        <i style="text-align: center;"class="far fa-star"></i>
+                            <br>PHOTOGRAPHY 
+                            <br>The work involved in developing a web site for the Internet or an intranet.
+                </div>
+    
+                <div style="text-align: center;"class="graphic">
+                        <i style="text-align: center;"class="fas fa-joint"></i>
+                            <br>GRAPHIC DESIGN 
+                            <br> A computer program or software application designed to run on a mobile device like phone or tablet.
+                </div>
+            
+            
+                <div style="text-align: center;"class="illustrations">
+                        <i style="text-align: center;"class="fas fa-mug-hot"></i>
+                            <br>ILLUSTRATIONS  
+                            <br>The art of applying design and aesthetics to create a game for entertainment.
+                </div>
+            
+        </figure>
     <!--quatation by Michael Hopkins-->
-    <p class="qutation">''Enjoy the journey, miss not the beauty around and the joy of discovery. Keep joy close at hand and all dangers will disappear as you approach them along the way.
-         <br>
-            M.N. Hopkins'' 
+    <p class="qutation">''Enjoy the journey, miss not the beauty around and the joy of discovery. Keep joy close at hand and all dangers will disappear as you approach them along the way'' .
+         <br> <br>
+         M.N. Hopkins   
     </p>
     <!--brand names starts here-->
             <figure class="brand">
@@ -154,26 +275,35 @@
     </form>
     <!--footer starts here-->
     <footer>
-       <P><h2>FbW6</h2> <br>&copy; 2019 FbW6.All rights reserved.</P> 
-       <P>hello@fbw6.com <br>+49 165-38745362</P>
-       <p class="footer">
-       
+       <div class="copyrite">
+        FbW6 <br>&copy; 2019 FbW6.All rights reserved.
+    </div>
+
+      <div class="id-tel">
+       hello@fbw6.com <br>+49 165-38745362
+    </div>
+
+       <div class="colo">
            Projects <br>
         About <br>
           Services <br>
            Career <br>
-           <br>
+        </div>
+
+        <div class="colt">
           News <br>
          Events <br>
           Contact <br>
           Legals <br>
-        <br>
+        </div>
+
+        <div class="cole">
             Facebook <br>
             Twitter <br>
             Instagram <br>
             Dribbble <br>
-        
-    </p>
+        </div>
+   
     </footer>
-        </body>
+</body>
 </html>
